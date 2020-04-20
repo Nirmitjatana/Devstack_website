@@ -1,0 +1,177 @@
+.parent{
+    /* background: linear-gradient(#2F13B2,#5454F3,#2F13B2); */
+    background-image: url('../Assets/background2.png');
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height:900vh;
+}
+.page-section{
+    height:100vh;
+    /* border-style:solid;
+    border-color:blue; */
+    /* padding: 300px; */
+    /* background: linear-gradient(#2F13B2,#5454F3); */
+}
+#devjams{
+    height:100vh;
+    border-style:solid;
+    border-color:transparent;
+    /* padding: 300px; */
+    /* background: linear-gradient(#2F13B2,#5454F3); */
+}
+#devtalks{
+    height:100vh;
+    border-style:solid;
+    border-color:transparent;
+    /* padding: 300px; */
+    /* background: linear-gradient(#2F13B2,#5454F3); */
+}
+.aboutdsc{
+    height:100vh;
+    /* border-style:solid; */
+    /* border-color:blue; */
+    /* padding: 300px; */
+    /* background: linear-gradient(#2F13B2,#5454F3); */
+}
+#timeline{
+    height:100vh;
+    border-style:solid;
+    border-color:transparent;
+    /* padding: 300px; */
+    /* background: linear-gradient(#2F13B2,#5454F3); */
+}
+.sponsers{
+    height:100vh;
+    /* border-style:solid; */
+    /* border-color:blue; */
+    /* padding: 300px; */
+    /* background: linear-gradient(#2F13B2,#5454F3); */
+}
+.contactus{
+    height:100vh;
+    /* border-style:solid; */
+    /* border-color:blue; */
+    /* padding: 300px; */
+    /* background: linear-gradient(#2F13B2,#5454F3); */
+}
+.timeline > img{
+    width:80%;
+    height:60%;
+    /* text-align: center; */
+}
+.timeline{
+    text-align: center;
+    margin-top:15vh;
+}
+.but > button{
+    margin-top: -15px;
+    width:200px;
+    height:60px;
+    border-radius: 75px;
+    font-size: 1.3em;
+    border-style: hidden;
+    color: #4941E0;
+    font-weight: 600;
+}
+.but{
+    text-align: center;
+}
+.devjams{
+    text-align: center;
+    margin-top:25vh;
+}
+.devjams1{
+    text-align: left;
+    width:38vw;
+}
+.devjams2{
+    width:35vw;
+}
+.devjams1 > h1{
+    font-family: 'montserrat';
+    font-size: 65px;
+    font-weight: 600;
+    color:#FEA1BE;
+}
+.devjams1 > h5{
+    font-family: 'montserrat';
+    color:white;
+    margin-top:50px;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+.devjams1 > .but {
+    margin-left: none;
+    /* border-style: solid;
+    border-color: yellow; */
+    text-align: left;
+}
+.devjams1 > .but > button{
+    width:260px;
+    font-size: 25px;
+    margin-top:18px;
+}
+.devjams2 > img{
+    height:550px;
+    margin-top:-20px;
+}
+
+.devjams3 > img{
+    height:450px;
+    width:500px;
+    margin-top:-20px;
+    margin-left:10px;
+}
+.container{
+    margin-top: 25vh;
+}
+@media screen and (max-width: 768px){
+    .timeline > img{
+        width:90%;
+        height:70%;
+        
+    }
+    .but > button{
+        margin-top: 25px;
+        width:200px;
+        height:60px;
+        border-radius: 75px;
+        font-size: 1.3em;
+        border-style: hidden;
+        color: #4941E0;
+        font-weight: 600;
+    }
+    #timeline{
+        height:50vh;
+        border-style:solid;
+         border-color:transparent;
+        /* padding: 300px; */
+        /* background: linear-gradient(#2F13B2,#5454F3); */
+    }
+    .devjams1{
+        display: block;
+        text-align: left;
+        width:100%;
+    }
+    .devjams2{
+        display: block;
+        width:100%;
+    }
+    #devjams{
+        height:150vh;
+    }
+    #devtalks{
+        height:150vh;
+    }
+    .devjams2 > img{
+        height:300px;
+        width:300px;
+    }
+    
+    .devjams3 > img{
+        height:300px;
+        width:300px;
+    }
+    .devjams{
+        margin-top:-20px;
+    }
+}
