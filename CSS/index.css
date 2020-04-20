@@ -24,10 +24,10 @@
     /* padding: 300px; */
     /* background: linear-gradient(#2F13B2,#5454F3); */
 }
-.aboutdsc{
+#aboutdsc{
     height:100vh;
-    /* border-style:solid; */
-    /* border-color:blue; */
+    border-style:solid;
+     border-color:transparent;
     /* padding: 300px; */
     /* background: linear-gradient(#2F13B2,#5454F3); */
 }
@@ -169,6 +169,41 @@
 .logos {
     margin-bottom: 40px;
 }
+.dsc{
+    margin-right:-200px;
+    height:400px;
+    width:600px;
+    margin-top:80px;
+    animation: myfirst 3s linear 0.2s infinite alternate;
+    /* border-style: solid;
+    border-color: white; */
+}
+@keyframes myfirst {
+    0%   {width:610px;height:410px;}
+    25%  {width:620px;height:420px;}
+    50%  {width:625px;height:425px;}
+    75%  {width:620px;height:420px;}
+    100% {width:610px;height:410px;}
+  }
+.dsckebaare > h1{
+    font-family: 'montserrat';
+    font-size: 35px;
+    font-weight: 500;
+    color:#FEA1BE;
+    text-align: left;
+}
+.dsckebaare > h3{
+    font-family: 'montserrat';
+    font-size: 19px;
+    font-weight: 300;
+    color:white;
+    margin-bottom: 70px;
+    text-align: left;
+    margin-top:20px;
+}
+#aboutdsc > .container{
+    margin-top:25vh;
+}
 @media screen and (max-width: 768px){
     .timeline > img{
         width:90%;
@@ -226,4 +261,15 @@
     .speakers > h1{
         padding-bottom:80px;
     }
+    #aboutdsc{
+        height:160vh;
+    }
+    .dsc{
+        height:250px;
+        width:90vw;
+        margin-top:2px;
+        margin-right: 20px;
+        animation: none;
+    }
+
 }
