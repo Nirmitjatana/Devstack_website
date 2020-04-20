@@ -223,4 +223,7 @@
     .devjams{
         margin-top:-20px;
     }
+    .speakers > h1{
+        padding-bottom:80px;
+    }
 }
