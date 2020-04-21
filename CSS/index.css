@@ -39,9 +39,9 @@
     /* background: linear-gradient(#2F13B2,#5454F3); */
 }
 #sponsers{
-    height:100vh;
+    height:120vh;
     border-style:solid;
-    border-color:blue;
+    border-color:transparent;
     /* padding: 300px; */
     /* background: linear-gradient(#2F13B2,#5454F3); */
 }
@@ -212,11 +212,31 @@
     color:#FEA1BE;
     margin-top:15vh;
 }
+.spimg{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+}
+.sponserbuttons{
+    text-align: center;
+}
+.sponserbuttons > button{
+    margin:40px;
+    width:180px;
+    height:50px;
+    border-radius: 40px;
+    border-style: hidden;
+    color: #4941E0;
+    font-weight: 600;
+}
 @media screen and (max-width: 768px){
     .timeline > img{
         width:90%;
         height:70%;
         
+    }
+    .spimg{
+        margin:26px;
     }
     .but > button{
         margin-top: 25px;
@@ -278,6 +298,9 @@
         margin-top:2px;
         margin-right: 20px;
         animation: none;
+    }
+    #sponsers{
+        height:325vh;
     }
 
 }
