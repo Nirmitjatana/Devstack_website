@@ -38,10 +38,10 @@
     /* padding: 300px; */
     /* background: linear-gradient(#2F13B2,#5454F3); */
 }
-.sponsers{
+#sponsers{
     height:100vh;
-    /* border-style:solid; */
-    /* border-color:blue; */
+    border-style:solid;
+    border-color:blue;
     /* padding: 300px; */
     /* background: linear-gradient(#2F13B2,#5454F3); */
 }
@@ -174,7 +174,7 @@
     height:400px;
     width:600px;
     margin-top:80px;
-    animation: myfirst 3s linear 0.2s infinite alternate;
+    animation: myfirst 3s ease 0.2s infinite alternate;
     /* border-style: solid;
     border-color: white; */
 }
@@ -203,6 +203,14 @@
 }
 #aboutdsc > .container{
     margin-top:25vh;
+}
+.sponserheading{
+    text-align: center;
+    font-family: 'montserrat';
+    font-size: 55px;
+    font-weight: 500;
+    color:#FEA1BE;
+    margin-top:15vh;
 }
 @media screen and (max-width: 768px){
     .timeline > img{
