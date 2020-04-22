@@ -177,7 +177,7 @@
     height:350px;
     width:500px;
     margin-top:80px;
-    animation: myfirst 3s linear 0.2s infinite alternate;
+    /* animation: myfirst 3s linear 0.2s infinite alternate; */
     /* border-style: solid;
     border-color: white; */
 }
