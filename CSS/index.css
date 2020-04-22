@@ -13,7 +13,7 @@
 #devjams{
     height:100vh;
     border-style:solid;
-    border-color:blue;
+    border-color:transparent;
     /* padding: 300px; */
     /* background: linear-gradient(#2F13B2,#5454F3); */
 }
@@ -251,6 +251,14 @@
     margin-top:25vh;
 }
 .sponserheading{
+    text-align: center;
+    font-family: 'montserrat';
+    font-size: 55px;
+    font-weight: 500;
+    color:#FEA1BE;
+    margin-top:15vh;
+}
+.timelineheading{
     text-align: center;
     font-family: 'montserrat';
     font-size: 55px;
