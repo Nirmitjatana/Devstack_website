@@ -439,11 +439,11 @@
         width:100%;
     }
     #devjams{
-        height:130vh;
+        height:140vh;
         /* margin-top: -200px; */
     }
     #devtalks{
-        height:460vh;
+        height:450vh;
     }
     .devjams2 > img{
         height:300px;
@@ -474,7 +474,7 @@
         animation: none;
     }
     #sponsers{
-        height:350vh;
+        height:330vh;
     }
     .contactimg > img{
         width:250px;
