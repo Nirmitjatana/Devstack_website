@@ -168,7 +168,8 @@ nav{
         -webkit-clip-path:circle(100px at 90% -20%);
         transition: all 1s ease-out 0.2s;
         pointer-events: none;
-        padding-top: 50px;
+        padding-top: 100px;
+        padding-bottom: 30px;
     }
     .open.nav-links{
         
@@ -181,7 +182,8 @@ nav{
             -webkit-clip-path:circle(100px at 90% -20%);
             transition: all 0.7s ease-out;
             pointer-events: none;
-            padding-top: 50px;
+            padding-top: 100px;
+            padding-bottom: 30px;
         
     }
     .nav-links.open{
