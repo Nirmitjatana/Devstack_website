@@ -13,7 +13,7 @@
 #devjams{
     height:100vh;
     border-style:solid;
-    border-color:transparent;
+    border-color:blue;
     /* padding: 300px; */
     /* background: linear-gradient(#2F13B2,#5454F3); */
 }
@@ -439,7 +439,7 @@
         width:100%;
     }
     #devjams{
-        height:150vh;
+        height:130vh;
         /* margin-top: -200px; */
     }
     #devtalks{
