@@ -4,52 +4,52 @@
     font-family: 'montserrat';
 }
 .page-section{
-    height:100vh;
+    /* height:100vh; */
     /* border-style:solid;
     border-color:blue; */
     /* padding: 300px; */
     /* background: linear-gradient(#2F13B2,#5454F3); */
 }
 #devjams{
-    height:100vh;
+    /* height:100vh; */
     border-style:solid;
     border-color:transparent;
     /* padding: 300px; */
     /* background: linear-gradient(#2F13B2,#5454F3); */
 }
 #devtalks{
-    height:205vh;
+    /* height:205vh; */
     border-style:solid;
     border-color:transparent;
     /* padding: 300px; */
     /* background: linear-gradient(#2F13B2,#5454F3); */
 }
 #home{
-    height:95vh;
+    /* height:95vh; */
 }
 #aboutdsc{
-    height:100vh;
+    /* height:100vh; */
     border-style:solid;
     border-color:transparent;
     /* padding: 300px; */
     /* background: linear-gradient(#2F13B2,#5454F3); */
 }
 #timeline{
-    height:100vh;
+    /* height:100vh; */
     border-style:solid;
     border-color:transparent;
     /* padding: 300px; */
     /* background: linear-gradient(#2F13B2,#5454F3); */
 }
 #sponsers{
-    height:120vh;
+    /* height:120vh; */
     border-style:solid;
     border-color:transparent;
     /* padding: 300px; */
     /* background: linear-gradient(#2F13B2,#5454F3); */
 }
 #contactus{
-    height:200vh;
+    /* height:200vh; */
     border-style:solid;
     border-color:transparent;
     /* padding: 300px; */
@@ -431,7 +431,7 @@
         font-weight: 600;
     }
     #timeline{
-        height:50vh;
+        /* height:50vh; */
         border-style:solid;
          border-color:transparent;
         /* padding: 300px; */
@@ -447,11 +447,11 @@
         width:100%;
     }
     #devjams{
-        height:140vh;
+        /* height:140vh; */
         /* margin-top: -200px; */
     }
     #devtalks{
-        height:450vh;
+        /* height:450vh; */
     }
     .devjams2 > img{
         height:300px;
@@ -472,7 +472,7 @@
         padding-bottom:80px;
     }
     #aboutdsc{
-        height:135vh;
+        /* height:135vh; */
     }
     .dsc{
         height:250px;
@@ -482,14 +482,14 @@
         animation: none;
     }
     #sponsers{
-        height:330vh;
+        /* height:330vh; */
     }
     .contactimg > img{
         width:250px;
         animation:none;
     }
     #contactus{
-        height:200vh;
+        /* height:200vh; */
     }
     .poc > h3{
         font-size: 14px;
@@ -503,7 +503,7 @@
         border-style: solid;
     }
     #contactus{
-        height:330vh;
+        /* height:330vh; */
     }
     .col-4 > img{
         display:none;
