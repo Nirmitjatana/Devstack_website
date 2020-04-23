@@ -83,10 +83,10 @@
 }
 .devjams1{
     text-align: left;
-    width:38vw;
+    /* width:38vw; */
 }
 .devjams2{
-    width:35vw;
+    /* width:35vw; */
 }
 .devjams1 > h1{
     font-family: 'montserrat';
@@ -376,6 +376,7 @@
 .links{
     text-align: center;
     margin-top:40px;
+    margin-bottom:20vh;
 }
 .links > a{
     margin:30px;
