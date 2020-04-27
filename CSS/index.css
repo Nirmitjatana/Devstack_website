@@ -1,5 +1,5 @@
 .parent{
-    /* background:url('../Assets/background.png') repeat, #7abcff; Old browsers */
+    background:url('../Assets/background.png') repeat, #7abcff;
     background:url('../Assets/background.png') repeat, -moz-linear-gradient(top,  #2F13B2 0%, #5454F3 100%); /* FF3.6-15 */
     background:url('../Assets/background.png') repeat, -webkit-linear-gradient(top,  #2F13B2 0%,#5454F3 100%); /* Chrome10-25,Safari5.1-6 */
     background:url('../Assets/background.png') repeat, linear-gradient(to bottom,  #2F13B2 0%,#5454F3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -607,5 +607,17 @@
     #lefter{
         margin-right:1px;
         /* width:400px; */
+    }
+    .parent{
+        background:url('../Assets/background.png') repeat, #7abcff;
+        background:url('../Assets/background.png') repeat, -moz-linear-gradient(top,  #2F13B2 0%, #5454F3 100%); /* FF3.6-15 */
+        background:url('../Assets/background.png') repeat, -webkit-linear-gradient(top,  #2F13B2 0%,#5454F3 100%); /* Chrome10-25,Safari5.1-6 */
+        background:url('../Assets/background.png') repeat, linear-gradient(to bottom,  #2F13B2 0%,#5454F3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        background:url('../Assets/background.png') repeat, -o-linear-gradient(to bottom,  #2F13B2 0%,#5454F3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        font-family: 'montserrat';
+        background-position: center;
+        background-position-y: 0vh;
+        background-size: 130vw;
+        
     }
 }
