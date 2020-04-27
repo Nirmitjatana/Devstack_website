@@ -19,7 +19,7 @@ $(document).ready(function(){
 
 nj.addEventListener("click", ()=>{
   $("#hamburger-6").click()
-  console.log("nj")
+  // console.log("nj")
 })
 
 
