@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 nav{
-    height:13vh;
-    /* background: linear-gradient(#2B0CAB,#2F13B2); */
-    background: transparent;
+    height:10vh;
+    background: #3C2AC9;
+    /* background: transparent; */
     /* top:0%; */
     position: fixed;
     width:100%;
