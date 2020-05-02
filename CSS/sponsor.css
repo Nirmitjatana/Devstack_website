@@ -1,0 +1,127 @@
+.logo{
+    margin:30px;
+}
+.logo > img{
+    width:270px;
+}
+body{
+    background:url('../Assets/background.png') repeat, #7abcff;
+    background:url('../Assets/background.png') repeat, #3C2AC9;
+    background:url('../Assets/background.png') repeat,  #3C2AC9;
+    background:url('../Assets/background.png') repeat, #3C2AC9;
+    background:url('../Assets/background.png') repeat, #3C2AC9;
+    
+    font-family: 'Montserrat';
+    background-position: center;
+    background-position-y: 10vh;
+    background-size: 130vw;
+}
+.card{
+    width:42vw;
+    background-color: white;
+    margin:2px auto;
+    border-radius: 30px;
+}
+.card > h1{
+    font-family: 'Montserrat';
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    padding-top:30px;
+}
+.form{
+    /* border-style: solid;
+    border-color: blue; */
+    margin: 10px 70px;
+    font-size: 19px;
+}
+form{
+    text-align: center;
+}
+#name{
+    width:93%;
+    height:34px;
+    margin: 15px 0px;
+    border-radius: 9px;
+    border-style: solid;
+    border-color: #3C2AC9;
+    padding-left:30px;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    color: #F6F6F6;
+}
+#company{
+    width:93%;
+    height:34px;
+    margin:25px 0px;
+    border-radius: 9px;
+    border-style: solid;
+    border-color: #3C2AC9;
+    padding-left:30px;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    color: #F6F6F6;
+    outline: none;
+}
+#email{
+    width:93%;
+    height:34px;
+    margin:25px 0px;
+    border-radius: 9px;
+    border-style: solid;
+    border-color: #3C2AC9;
+    padding-left:30px;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.178);
+    outline: none;
+}
+#phone{
+    width:93%;
+    height:34px;
+    margin:25px 0px; 
+    border-radius: 9px;
+    border-style: solid;
+    border-color: #3C2AC9;
+    padding-left:30px;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    color: rgb(236, 236, 236);
+    outline: none;
+}
+#submit{
+    margin:50px auto;
+    width:200px;
+    height:50px;
+    border-radius: 60px;
+    border-style: solid;
+    border-color: #3C2AC9;
+    background-color: #3C2AC9;
+    color: white;
+    font-size: 20px;
+    outline: none;
+}
+@media screen and (max-width: 768px){
+    .card{
+        width:96vw;
+    }
+    .form{
+        margin:10px 30px;
+    }
+    #name{
+        width:90%;
+    }
+    #company{
+        width:90%;
+    }
+    #email{
+        width:90%;
+    }
+    #phone{
+        width:90%;
+    }
+    .logo{
+        text-align: center;
+        margin:30px 0px;
+    }
+}

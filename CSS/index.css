@@ -85,6 +85,7 @@
     border-style: hidden;
     color: #4941E0;
     font-weight: 600;
+    outline: none;
 }
 .but3 > button{
     margin-top:15px;
@@ -95,6 +96,7 @@
     border-style: hidden;
     color: #4941E0;
     font-weight: 600;
+    outline: none;
 }
 .but{
     text-align: center;
@@ -133,6 +135,7 @@
     width:260px;
     font-size: 25px;
     margin-top:18px;
+    outline: none;
 }
 .devjams2 > img{
     height:550px;
@@ -309,6 +312,7 @@
 }
 .sponserbuttons{
     text-align: center;
+    outline: none;
 }
 .sponserbuttons > button{
     margin:40px;
@@ -318,6 +322,7 @@
     border-style: hidden;
     color: #4941E0;
     font-weight: 600;
+    outline: none;
 }
 #sponsers > .row {
     /* border-style:solid;
@@ -400,6 +405,7 @@
     color: #4941E0;
     font-weight: 500;
     margin-top:20px;
+    outline: none;
 }
 .but1{
     text-align: center;
@@ -656,6 +662,25 @@
     border-radius: 50%;
     top: 40px;
     transform: translateX(-50%);
+}
+.pre-loader {
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999999;
+}
+#lottie{
+    background-color:#fff;
+    width:100%;
+    height:100%;
+    display:block;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    text-align: center;
+    opacity: 1;
 }
 @media screen and (max-width: 768px){
     .timeline > img{
