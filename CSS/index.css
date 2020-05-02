@@ -715,13 +715,14 @@
         margin-left:20px;
     }
     .devjams{
-        margin-top:-20px;
+        margin-top:-35px;
     }
     .speakers > h1{
         padding-bottom:80px;
     }
     #aboutdsc{
         /* height:135vh; */
+        /* margin-top: 180px; */
     }
     .dsc{
         height:250px;
@@ -769,7 +770,7 @@
         margin-top:-100px;
     }
     .dsckebaare > h1{
-        /* margin-top:10px; */
+        margin-top:40px;
     }
     .dsckebaare > .dist{
         padding-top:100px;
@@ -821,4 +822,7 @@
         width:230px;
         margin: auto auto;
     }
+    /* #typewriter1{
+        margin-top:30px;
+    } */
 }
