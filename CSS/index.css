@@ -319,6 +319,12 @@
     color: #4941E0;
     font-weight: 600;
 }
+#sponsers > .row {
+    /* border-style:solid;
+    border-color:blue; */
+    width:70vw;
+    margin:20px auto;
+}
 .poc > h2{
     font-family: 'montserrat';
     font-size: 30px;
@@ -449,6 +455,7 @@
 .devtext{
     width:42vw;
     margin-bottom: 30px;
+    user-select: none;
 }
 .opendev{
     color:white;
@@ -660,10 +667,10 @@
         display: hidden;
     } */
     .spimg{
-        margin:26px;
+        margin-top:35px;
     }
     .but > button{
-        margin-top: 15px;
+        margin-top: 25px;
         width:200px;
         height:60px;
         border-radius: 75px;
@@ -705,7 +712,7 @@
         height:300px;
         width:300px;
         margin-top: 110px;
-        margin-left:30px;
+        margin-left:20px;
     }
     .devjams{
         margin-top:-20px;
@@ -806,7 +813,12 @@
         
     }
     .container8{
-        width:100vw;
+        width:98vw;
         grid-gap:30px;
+        /* border-radius: 13px;; */
+    }
+    #sponsers > .row {
+        width:230px;
+        margin: auto auto;
     }
 }
