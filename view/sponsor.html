@@ -7,6 +7,7 @@
     <link href='//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="../CSS/sponsor.css">
+<script src="https://www.google.com/recaptcha/api.js?render=6Lf5ddUUAAAAAKIJ5kmvXFeoqZ-VFtKgSBzaUXTk"></script>
 </head>
 <body>
     <div class="logo">
@@ -16,15 +17,26 @@
         <h1>Sponsor Us!</h1>
         <div class="form">
             Fill in your details!
+            <p id="message"></p>
             <form>
-                <input type="text" id="name" name="fname" placeholder="Name" required><br>
-                <input type="text" id="company" name="lname" placeholder="Company Name" required><br>
-                <input type="email" id="email" name="fname" placeholder="Email ID" required><br>
-                <input type="number" id="phone" name="lname" placeholder="Phone Number" required><br>
+                <input type="text" id="name" name="name" placeholder="Name" required><br>
+                <input type="text" id="company" name="deviceID" placeholder="Company Name" required><br>
+                <input type="email" id="email" name="emailAddress" placeholder="Email ID" required><br>
+                <input type="number" id="phone" name="phoneNumber" placeholder="Phone Number" required><br>
                 <input type="submit" value="Submit" id="submit">
               </form> 
         </div>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="../JS/sponsor.js"></script>
+    <script>
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6Lf5ddUUAAAAAKIJ5kmvXFeoqZ-VFtKgSBzaUXTk', {action: 'login'})
+        .then(function(token) {
+            localStorage.setItem('captcha',token);
+        });
+    });
+</script>
 </body>
 </html>
