@@ -9,7 +9,14 @@
     background-position: center;
     background-position-y: 0vh;
     background-size: 130vw;
-    
+    display:none;
+}
+.loader{
+    display:block;
+    text-align: center;
+    margin-top:80px;
+    background-color: #FBFBFB;
+    z-index: 9999999;
 }
 .page-section{
     /* height:100vh; */
