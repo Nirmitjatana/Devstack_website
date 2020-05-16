@@ -411,7 +411,7 @@
     border-style: hidden;
     color: #4941E0;
     font-weight: 500;
-    margin-top:20px;
+    margin-top:50px;
     outline: none;
 }
 .but1{
@@ -689,11 +689,59 @@
     text-align: center;
     opacity: 1;
 }
+#accord{
+    margin:40px auto;
+}
+.accordion {
+    background-color: #eee;
+    color: #3C2AC9;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+    .accordion:hover {
+    background-color: #ccc;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    color: #3C2AC9;
+    border-radius: 5px;
+    font-size: 15px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .accordion:after {
+    content: '\02C5'; 
+    font-size: 13px;
+    color: blue;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active3:after {
+    content: '\02C4';
+  }
+  #faqim{
+      padding: 40px;
+      width:350px;
+  }
 @media screen and (max-width: 768px){
     .timeline > img{
         width:90%;
         height:70%;
         
+    }
+    #accord{
+        width:90vw;
     }
     /* .dsc{
         display: hidden;
