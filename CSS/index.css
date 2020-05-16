@@ -1,14 +1,16 @@
 .parent{
-    background:url('../Assets/background.png') repeat, #7abcff;
     background:url('../Assets/background.png') repeat, #3C2AC9;
-    background:url('../Assets/background.png') repeat,  #3C2AC9;
-    background:url('../Assets/background.png') repeat, #3C2AC9;
-    background:url('../Assets/background.png') repeat, #3C2AC9;
-    
+    background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100%; 
+        overflow: hidden;
     font-family: 'montserrat';
-    background-position: center;
+    /* background-position: center;
     background-position-y: 0vh;
-    background-size: 130vw;
+    background-size: 130vw; */
     display:none;
 }
 .loader{
