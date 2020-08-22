@@ -1,12 +1,16 @@
+
+body {
+    overflow-y: scroll;
+}
 .parent{
     background:url('../Assets/background.png') repeat, #3C2AC9;
     background-position: center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        height: 100%; 
-        overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%; 
+    overflow: hidden;
     font-family: 'montserrat';
     /* background-position: center;
     background-position-y: 0vh;
@@ -735,6 +739,59 @@
   #faqim{
       padding: 40px;
       width:350px;
+  }
+  .center, .front-face, .back-face,.contents{
+      position: absolute;
+  }
+  .center{
+      height:400px;
+      width:290px;
+      transform-style: preserve-3d;
+      left: 40%;
+      margin-top: 50px;
+  }
+  .front-face, .back-face{
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      background-color: #FEA1BE;
+      border-radius: 10px;
+      backface-visibility: hidden;
+      transform-style: preserve-3d;
+      transition: transform .7s cubic-bezier(0.4, .3, 0.2, .1);
+  }
+  .contents{
+      top:50%;
+      width:100%;
+      perspective: 100px;
+      transform : translateY(-50%) translateZ(60px) scale(0.94);
+
+  }
+  .front p{
+      color: #4941E0;
+      font-size: 35px;
+      margin-bottom: 15px;
+  }
+  .back h2{
+      font-weight: lighter;
+      /* color: #4941E0; */
+      font-size: 28px;
+      padding-bottom: 5px;
+  }
+  .center:hover > .back-face{
+      transform: rotateY(0deg);
+  }
+  .center:hover > .front-face{
+      transform: rotateY(-180deg);
+  }
+  .front p::after{
+      content: '';
+      display: block;
+      height: 2px;
+      width:100px;
+  }
+  .back-face{
+      transform: rotateY(180deg);
   }
 @media screen and (max-width: 768px){
     .timeline > img{

@@ -61,13 +61,13 @@ rel='stylesheet' type='text/css'>
           
         <ul class="nav-links">
             
-            <li class="navigation__link" data-aos="fade-up" data-aos-duration="800" ><a href="#home" >Home</a></li>
-            <li data-aos="fade-up" data-aos-duration="900" ><a href="#devjams"  class="navigation__link">DevJams</a></li>
-            <li data-aos="fade-up" data-aos-duration="1100" ><a href="#devtalks"  class="navigation__link">DevTalks</a></li>
-            <li data-aos="fade-up" data-aos-duration="1200" ><a href="#aboutdsc"  class="link">AboutDSC</a></li>
-            <li data-aos="fade-up" data-aos-duration="1300" data-aos-anchor-placement="bottom-bottom" ><a href="#timeline"  class="link">Timeline</a></li>
-            <li data-aos="fade-up" data-aos-duration="1400" data-aos-anchor-placement="bottom-bottom" ><a href="#sponsers"  class="link">Sponsers</a></li>
-            <li data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" ><a href="#contactus" class="link">Contact Us</a></li> 
+            <li class="navigation__link" data-aos="fade-right" data-aos-duration="400" ><a href="#home" >Home</a></li>
+            <li data-aos="fade-up" data-aos-duration="600" ><a href="#devtalks"  class="navigation__link">DevTalks</a></li>
+            <li data-aos="fade-up" data-aos-duration="700" ><a href="#devjams"  class="navigation__link">DevJams</a></li>
+            <li data-aos="fade-up" data-aos-duration="800" ><a href="#aboutdsc"  class="link">AboutDSC</a></li>
+            <!-- <li data-aos="fade-up" data-aos-duration="900" data-aos-anchor-placement="bottom-bottom" ><a href="#timeline"  class="link">Timeline</a></li> -->
+            <li data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom" ><a href="#sponsers"  class="link">Sponsers</a></li>
+            <li data-aos="fade-up" data-aos-duration="1100" data-aos-anchor-placement="bottom-bottom" ><a href="#contactus" class="link">Contact Us</a></li> 
         </ul>
     </nav>
     <script>
@@ -97,8 +97,9 @@ rel='stylesheet' type='text/css'>
         start();
       }
       function start(){
-        typeWriter();
-        AOS.init();
+        setTimeout(typeWriter(),40000);
+        setTimeout(AOS.init(),5000);
+        // setTimeout(function(){ alert("After 5 seconds!"); }, 5000);
       }
       </script>
 
@@ -108,7 +109,7 @@ rel='stylesheet' type='text/css'>
         <div class="col" id="lefter">
           <div class="devjams4">
             <h1>
-              <img src="./Assets/devstack1.png" alt="" class="devtext" data-aos="fade-right" data-aos-duration="1000">
+              <img src="./Assets/devstack1.png" alt="" class="devtext" data-aos="fade-right" data-aos-duration="300">
             </h1>
             <h5 class="opendev" id="demo">
                 
@@ -130,50 +131,25 @@ rel='stylesheet' type='text/css'>
     </div>
     </div>
     <!-- devjams -->
-    <div class="page-section" id="devjams">
-        <div class="devjams">
-            <div class="container" id="padfix">
-                <div class="row">
-                  <div class="col-sm">
-                    <div class="devjams1">
-                        <h1 data-aos="fade-right" data-aos-duration="1000">DevJams</h1>
-                        <h5>
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                        </h5>
-                        <div class="but">
-                            <button data-aos="fade-right" data-aos-duration="800">Register</button>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="devjams2">
-                        <img src="./Assets/devjams.png" alt="" data-aos="fade-right" data-aos-duration="1000">
-                    </div>
-                  </div>
-                </div>
-              </div>
-        
-        </div>
-        
-    </div>
+    
         
     <div class="page-section" id="devtalks">
         <div class="container" id="padfix">
             <div class="row">
               <div class="col-sm">
                 <div class="devjams1">
-                    <h1 data-aos="fade-right" data-aos-duration="2200">DevTalks</h1>
+                    <h1 data-aos="fade-right" data-aos-duration="200">DevTalks</h1>
                     <h5>
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
                     </h5>
                     <div class="but">
-                        <button data-aos="fade-right" data-aos-duration="800">Register</button>
+                        <button data-aos="fade-right" data-aos-duration="400">Register</button>
                     </div>
                 </div>
               </div>
               <div class="col-sm">
                 <div class="devjams3">
-                    <img src="./Assets/devtalks.png" alt="" class="talkimage" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="./Assets/devtalks.png" alt="" class="talkimage" data-aos="fade-right" data-aos-duration="700">
                 </div>
               </div>
               
@@ -191,7 +167,36 @@ rel='stylesheet' type='text/css'>
           
           <div class="speakers" id="scroll">
               <h1>Speakers</h1>
-              <div class="container8">
+              <div class="center">
+                <div class="front-face">
+                  <div class="contents front">
+                    <p>Nirmit Jatana</p>
+                    <span>Web Developer</span>
+                  </div>
+                </div>
+                <div class="back-face">
+                  <div class="contents back">
+                    <h2>Awesome dev</h2>
+                    <span>Follow me!</span>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <!-- <div class="container8">
                 <div class="card">
                   <div class="face face1">
                     <div class="content8">
@@ -243,124 +248,66 @@ rel='stylesheet' type='text/css'>
                     </h2>
                   </div>
                 </div>
-              </div>
-              <!-- <div class="container5">
-                <div class="card">
-                  <div class="img-box">
-                    <img src="./Assets/placeholder.jpeg" alt="" style="border-radius: 50%;">
-               			<img src="https://image.flaticon.com/icons/svg/681/681611.svg" alt="Design" title="Design"> 
-                    <h3>
-                      Nirmit Jatana
-                    </h3>
-                  </div>
-                  
-                  <div class="content3">
-                    <p>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. A molestias vitae nihil libero! Itaque vitae alias.
-                    </p>
-                  </div>
-                </div>
-                
-                <div class="card">
-                  <div class="img-box">
-                    <img src="./Assets/placeholder.jpeg" alt="" style="border-radius: 50%;">
-                     <img src="https://image.flaticon.com/icons/svg/1197/1197409.svg" alt="Code" title="Code">
-                    <h3>
-                      Nirmit Jatana
-                    </h3>
-                  </div>
-                  
-                  <div class="content3">
-                    <p>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. A molestias vitae nihil libero! Itaque vitae alias.
-                    </p>
-                  </div>
-                </div>
-                
-                <div class="card">
-                  <div class="img-box">
-                    <img src="./Assets/placeholder.jpeg" alt="" style="border-radius: 50%;">
-                     <img src="https://image.flaticon.com/icons/svg/993/993707.svg" alt="Launch" title="Launch"> 
-                    <h3>
-                      Nirmit Jatana
-                    </h3>
-                  </div>
-                  
-                  <div class="content3">
-                    <p>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. A molestias vitae nihil libero! Itaque vitae alias.
-                    </p>
-                  </div>
-                </div>
               </div> -->
-              <!-- <div class="container" id="container">
-                <div class="row">
-                  <div class="col-sm" style="text-align: center;">
-                    <div class="frame" style="margin: 0px auto;">
-                        <img src="./Assets/placeholder.jpeg" alt="">
-                    </div>
-                    <h1 data-aos="fade-up" data-aos-duration="4000">Nirmit Jatana</h1>
-                    <h6>
-                        He is an active public speaker and writer, and an interactive speaker at GDG Bangalore. He currently is an android developer in Lenskart. He has got adventurous genes and a curious heart to explore new things.
-                    </h6>
-                    <div class="logos">
-                        <img src="./Assets/linkedin.png" alt="">
-                        <img src="./Assets/twitter.png" alt="">
-                    </div>
-                  </div>
-                  <div class="col-sm" style="text-align: center;">
-                    <div class="frame" style="margin: 0px auto;">
-                        <img src="./Assets/placeholder.jpeg" alt="">
-                    </div>
-                    <h1 data-aos="fade-up" data-aos-duration="4000">Nirmit Jatana</h1>
-                    <h6>
-                        He is an active public speaker and writer, and an interactive speaker at GDG Bangalore. He currently is an android developer in Lenskart. He has got adventurous genes and a curious heart to explore new things.
-                    </h6>
-                    <div class="logos">
-                        <img src="./Assets/linkedin.png" alt="">
-                        <img src="./Assets/twitter.png" alt="">
-                    </div>
-                  </div>
-                  <div class="col-sm" style="text-align: center;">
-                    <div class="frame" style="margin: 0px auto;">
-                        <img src="./Assets/placeholder.jpeg" alt="">
-                    </div>
-                    <h1 data-aos="fade-up" data-aos-duration="4000">Nirmit Jatana</h1>
-                    <h6>
-                        He is an active public speaker and writer, and an interactive speaker at GDG Bangalore. He currently is an android developer in Lenskart. He has got adventurous genes and a curious heart to explore new things.
-                    </h6>
-                    <div class="logos">
-                        <img src="./Assets/linkedin.png" alt="">
-                        <img src="./Assets/twitter.png" alt="">
-                    </div>
-                  </div>
-                </div>
-                </div> -->
+              
           </div>
 
     </div>
+
+<!-- devjams -->
+
+<div class="page-section" id="devjams">
+  <div class="devjams">
+      <div class="container" id="padfix">
+          <div class="row">
+            <div class="col-sm">
+              <div class="devjams1">
+                  <h1 data-aos="fade-right" data-aos-duration="200">DevJams</h1>
+                  <h5>
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                  </h5>
+                  <div class="but">
+                      <button data-aos="fade-right" data-aos-duration="400">Register</button>
+                  </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="devjams2">
+                  <img src="./Assets/devjams.png" alt="" data-aos="fade-right" data-aos-duration="800">
+              </div>
+            </div>
+          </div>
+        </div>
+  
+  </div>
+  
+</div>
+
+
+
+
     <!-- aboutdsc -->
     <div class="page-section" id="aboutdsc">
         <div class="container" style="text-align: center;" id="padfix">
             <div class="row">
               <div class="col">
                 <div class="dsckebaare">
-                    <h1 data-aos="fade-right" data-aos-duration="1500" id="typewriter">About DSC</h1>
+                    <h1 data-aos="fade-right" data-aos-duration="300" id="typewriter">About DSC</h1>
                     <h3>DSC VIT powered by Google Developers is a student community at VIT Vellore. We strive to bring about technological innovations among students and we do so by providing a platform for them to exhibit their talents. We are a group of passionate designers, developers and managers who work together to bring about collaborative results that better the lives of everyone around us.</h3>
                 </div>
                 <div class="dsckebaare">
-                    <h1 class="dist" data-aos="fade-right" data-aos-duration="2000" id="typewriter">About VIT</h1>
+                    <h1 class="dist" data-aos="fade-right" data-aos-duration="300" id="typewriter">About VIT</h1>
                     <h3>Vellore Institute of Technology, Vellore VIT, Vellore is one of the top-rated engineering colleges in India. Diversity is the strongest aspect of the institute and the students from various states and nations, the key to its reputation. The university works on ideas and executes tasks of different domains under Clubs and Chapters.</h3>
                 </div>
               </div>
               <div class="col">
-                <img src="./Assets/dsc.png" alt="" class="dsc" data-aos="fade-right" data-aos-duration="2500">
+                <img src="./Assets/dsc.png" alt="" class="dsc" data-aos="fade-right" data-aos-duration="1000">
               </div>
             </div>
           </div>
     </div>
     <!-- timeline -->
-    <div class="page-section" id="timeline">
+    <!-- <div class="page-section" id="timeline">
         <div class="timeline">
           <div class="timelineheading">
             Timeline
@@ -370,43 +317,46 @@ rel='stylesheet' type='text/css'>
         <div class="but">
             <button data-aos="fade-right" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">Download PDF</button>
         </div>
-    </div>
+    </div> -->
+
+
+    <!-- sponsers -->
     <div class="page-section" id="sponsers">
         <div class="sponserheading">
             Sponsors
         </div>
         <div class="row" >
             <div class="col">
-                <img src="./Assets/sponser1.jpeg" alt="" class="spimg" data-aos="fade-up" data-aos-duration="1000">
+                <img src="./Assets/sponser1.jpeg" alt="" class="spimg" data-aos="fade-up" data-aos-duration="500">
             </div>
             <div class="col">
-                <img src="./Assets/sponser2.jpeg" alt="" class="spimg" data-aos="fade-up" data-aos-duration="1000">
+                <img src="./Assets/sponser2.jpeg" alt="" class="spimg" data-aos="fade-up" data-aos-duration="500">
             </div>
             <div class="col">
-                <img src="./Assets/sponser3.jpeg" alt="" class="spimg" data-aos="fade-up" data-aos-duration="1000">
+                <img src="./Assets/sponser3.jpeg" alt="" class="spimg" data-aos="fade-up" data-aos-duration="500">
             </div>
             <div class="col">
-                <img src="./Assets/sponser4.jpeg" alt="" class="spimg" data-aos="fade-up" data-aos-duration="1000">
+                <img src="./Assets/sponser4.jpeg" alt="" class="spimg" data-aos="fade-up" data-aos-duration="500">
             </div>
           </div>
           
           <div class="row">
             <div class="col">
-                <img src="./Assets/sponser4.jpeg" alt="" class="spimg"data-aos="fade-up" data-aos-duration="1000">
+                <img src="./Assets/sponser4.jpeg" alt="" class="spimg"data-aos="fade-up" data-aos-duration="500">
             </div>
             <div class="col">
-                <img src="./Assets/sponser3.jpeg" alt="" class="spimg" data-aos="fade-up" data-aos-duration="1000">
+                <img src="./Assets/sponser3.jpeg" alt="" class="spimg" data-aos="fade-up" data-aos-duration="500">
             </div>
             <div class="col">
-                <img src="./Assets/sponser2.jpeg" alt="" class="spimg" data-aos="fade-up" data-aos-duration="1000">
+                <img src="./Assets/sponser2.jpeg" alt="" class="spimg" data-aos="fade-up" data-aos-duration="500">
             </div>
             <div class="col">
-                <img src="./Assets/sponser1.jpeg" alt="" class="spimg" data-aos="fade-up" data-aos-duration="1000">
+                <img src="./Assets/sponser1.jpeg" alt="" class="spimg" data-aos="fade-up" data-aos-duration="500">
             </div>
           </div>
           <div class="sponserbuttons">
-              <button data-aos="fade-right" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" onclick="window.location.href='./view/sponsor.html'">Sponser Us</button>
-              <button data-aos="fade-right" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom">Download Brochure</button>
+              <button data-aos="fade-right" data-aos-duration="1600" data-aos-anchor-placement="bottom-bottom" onclick="window.location.href='./view/sponsor.html'">Sponser Us</button>
+              <button data-aos="fade-right" data-aos-duration="1600" data-aos-anchor-placement="bottom-bottom">Download Brochure</button>
           </div>
     </div>
     <div class="page-section" id="contactus">
